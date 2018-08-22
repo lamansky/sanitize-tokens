@@ -1,0 +1,46 @@
+{
+  "name": "sanitize-tokens",
+  "version": "1.0.0",
+  "description": "Returns an array of tokens found in the provided strings.",
+  "keywords": [
+    "sanitize",
+    "space-separated",
+    "html",
+    "tokens"
+  ],
+  "author": {
+    "name": "Fr. John Lamansky",
+    "url": "lamansky.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/sanitize-tokens",
+  "repository": "lamansky/sanitize-tokens",
+  "main": "index.js",
+  "files": [],
+  "engines": {
+    "node": ">=8.3.0"
+  },
+  "dependencies": {
+    "2": "^2.0.0",
+    "@lamansky/flatten": "^1.0.0",
+    "arrify": "^1.0.1",
+    "ascii-whitespace": "^1.0.0",
+    "concat-each": "^1.0.0",
+    "is-nil": "^1.0.1",
+    "sbo": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "is-array-with": "^1.0.0",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
